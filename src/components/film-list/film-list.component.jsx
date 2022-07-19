@@ -66,9 +66,7 @@ const Films = () => {
 
 	const getLatestMovie = () => {
 		if (moviesArray && moviesArray.length > 0) {
-			console.log(moviesArray, "movies array", moviesArray.length);
 			let latestMovie = moviesArray[moviesArray.length - 1];
-			console.log(latestMovie, "latestMovie");
 			setLatestMovie(latestMovie);
 		}
 	};
